@@ -61,9 +61,9 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
       onTap: () {
-        // context.push(menuItem.link); //go router
+        context.push(menuItem.link); //go router
 
-        context.pushNamed(CardsScreen.name); // go router named
+        // context.pushNamed(CardsScreen.name); // go router named
       },
     );
   }
